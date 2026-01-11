@@ -1,6 +1,6 @@
 # KaleidoscopeCookery-Automation 森罗厨房：自动化
 
-> A addon mod for Kaleidoscope Cookery and Create which adds many ways to automate your kitchen.
+> A addon mod for Kaleidoscope Cookery and Create make it easy for players to automate their kitchens.
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-Java%20Edition-brightgreen)
 ![Forge](https://img.shields.io/badge/%20NeoForge%20|%201.21.1-orange)
