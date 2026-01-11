@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "priority": 1200,
+  "package": "com.mastermarisa.kaleidoscopecookeryautomation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SteamerBlockMixin",
+    "SteamerBlockEntityMixin",
+    "SteamerItemMixin",
+    "StockpotBlockEntityMixin",
+    "RecipeManagerAccessor",
+    "StockpotBlockMixin",
+    "RecipeItemMixin",
+    "PotBlockMixin",
+    "PotBlockEntityMixin",
+    "FruitBasketBlockEntityMixin",
+    "ShawarmaSpitBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "minVersion": "0.8"
+}
