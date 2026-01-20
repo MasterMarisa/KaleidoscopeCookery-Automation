@@ -122,7 +122,7 @@ public class ModArmInteractionPointTypes {
                         return remainder;
                     }
                 }else if(entity.getStatus() == 3){
-                    if(!stack.isEmpty() && (stack.getCount() != entity.getTakeoutCount() || stack.getCount() != 1)){
+                    if(!stack.isEmpty() && !(stack.getCount() == entity.getTakeoutCount() || stack.getCount() == 1)){
                         return stack;
                     }else {
                         if(stockpot.canMatchContainer(stack)){

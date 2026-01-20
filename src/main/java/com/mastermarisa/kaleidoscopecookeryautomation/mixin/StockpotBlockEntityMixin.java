@@ -101,7 +101,7 @@ public class StockpotBlockEntityMixin extends BaseBlockEntity implements IStockp
         }
         if(livingEntity instanceof Player player){
             if(player.isSecondaryUseActive()){
-                ItemUtils.getItemToLivingEntity(player,storedRecipeItem.copy());
+                ItemUtils.getItemToLivingEntity(player,getStoredRecipeItem().copy());
                 storedRecipeItem = ItemStack.EMPTY;
                 setChanged();
                 return true;
@@ -112,10 +112,10 @@ public class StockpotBlockEntityMixin extends BaseBlockEntity implements IStockp
 
     public boolean inputMatchRecipe(Level level){
         RecipeItem.RecipeRecord storedRecipe;
-        if(storedRecipeItem.isEmpty()){
+        if(getStoredRecipeItem().isEmpty()){
             return false;
         }else {
-            storedRecipe = RecipeItem.getRecipe(storedRecipeItem);
+            storedRecipe = RecipeItem.getRecipe(getStoredRecipeItem());
         }
         if(storedRecipe == null){
             return false;
@@ -156,10 +156,10 @@ public class StockpotBlockEntityMixin extends BaseBlockEntity implements IStockp
 
     public boolean canMatchRecipe(ItemStack itemStack){
         RecipeItem.RecipeRecord storedRecipe;
-        if(storedRecipeItem.isEmpty()){
+        if(getStoredRecipeItem().isEmpty()){
            return false;
         }else {
-            storedRecipe = RecipeItem.getRecipe(storedRecipeItem);
+            storedRecipe = RecipeItem.getRecipe(getStoredRecipeItem());
         }
         if(storedRecipe == null){
             return false;

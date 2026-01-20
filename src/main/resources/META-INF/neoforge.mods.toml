@@ -18,7 +18,7 @@ license="${mod_license}"
 modId="kaleidoscopecookery_automation" #mandatory
 
 # The version number of the mod
-version="0.5.0-1.21.1" #mandatory
+version="0.5.0-1.21.1-bugfix-1" #mandatory
 
 # A display name for the mod
 displayName="KaleidoscopeCookery:Automation" #mandatory
@@ -74,3 +74,4 @@ config="kaleidoscopecookery_automation.mixins.json"
     versionRange="[6.0.8,)"
     ordering="NONE"
     side="BOTH"
+
