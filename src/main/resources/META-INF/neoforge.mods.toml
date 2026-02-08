@@ -1,51 +1,22 @@
-# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader="javafml" #mandatory
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="BSD 3-Clause"
 
-# A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.
-loaderVersion="${loader_version_range}" #mandatory
-
-# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
-# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="${mod_license}"
-
-# A URL to refer people to when problems occur with this mod
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
-
-# A list of mods - how many allowed here is determined by the individual mod loader
-[[mods]] #mandatory
-
-# The modid of the mod
-modId="kaleidoscopecookery_automation" #mandatory
-
-# The version number of the mod
-version="0.5.0-1.21.1-bugfix-1" #mandatory
-
-# A display name for the mod
-displayName="KaleidoscopeCookery:Automation" #mandatory
-
-# A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
-
-# A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
-
-# A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
-
-# A text field displayed in the mod UI
-#credits="" #optional
-
-# The authors of the mod, displayed in the mod UI (optional)
+[[mods]]
+modId="kaleidoscopecookery_automation"
+version="1.0.0"
+displayName="KaleidoscopeCookery:Automation"
 authors="摸里傻"
 
-# The description text for the mod (multi line!) (#mandatory)
 description='''
 一个为森罗厨房引入浪漫而不失沉浸感的自动化方式的mod
 '''
 
-# The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
 [[mixins]]
 config="kaleidoscopecookery_automation.mixins.json"
+
+[[accessTransformers]]
+file="META-INF/accesstransformer.cfg"
 
 [[dependencies."kaleidoscopecookery_automation"]]
     modId="neoforge"
@@ -64,7 +35,7 @@ config="kaleidoscopecookery_automation.mixins.json"
 [[dependencies."kaleidoscopecookery_automation"]]
     modId="kaleidoscope_cookery"
     type="required"
-    versionRange="[1.1.2,)"
+    versionRange="[1.2.0,)"
     ordering="NONE"
     side="BOTH"
 
@@ -74,4 +45,3 @@ config="kaleidoscopecookery_automation.mixins.json"
     versionRange="[6.0.8,)"
     ordering="NONE"
     side="BOTH"
-
