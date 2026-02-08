@@ -4,7 +4,7 @@
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-Java%20Edition-brightgreen)
 ![NeoForge](https://img.shields.io/badge/%20NeoForge%20|%201.21.1-orange)
-![Forge](https://img.shields.io/badge/%20Forge%20|%201.20~~~~.1-orange)
+![Forge](https://img.shields.io/badge/%20Forge%20|%201.20.1-orange)
 ![License](https://img.shields.io/badge/License-BSD%20-blue)
 
 ## Introduction
