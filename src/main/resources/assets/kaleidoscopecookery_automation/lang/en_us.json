@@ -1,4 +1,41 @@
 {
   "tooltip.kaleidoscopecookery_automation.recipe_item.address" : "Address Recorded",
-  "message.kaleidoscopecookery_automation.recipe_set" : "Recipe Set"
+  "message.kaleidoscopecookery_automation.recipe_set" : "Recipe Set",
+  "kaleidoscopecookery_automation.ponder.stockpot.header": "Automating the Stock Pot with a Mechanical Arm",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_1": "Input",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_2": "Output",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_3": "First, set the target recipe for the Stockpot.",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_4": "If no SoupBase has been added, the Mechanical Arm will attempt to add the SoupBase item to the pot, returning the container.",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_5": "Next, the Mechanical Arm will insert the matching ingredients into the pot.",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_6": "Once the ingredients in the pot perfectly match the recipe, the Mechanical Arm will place the lid on the Stockpot.",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_7": "Now, just wait for a while...",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_8": "Input",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_9": "When cooking is complete, a Mechanical Arm set to output from the Stockpot will remove the lid.",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_10": "Finally, the Mechanical Arm will scoop the finished dish from the Stockpot using a container. (The number of serving containers must be 1 or match the remaining portions in the pot.)",
+
+  "kaleidoscopecookery_automation.ponder.pot.header": "Automating the Pot with a Mechanical Arm",
+  "kaleidoscopecookery_automation.ponder.pot.text_1": "Input",
+  "kaleidoscopecookery_automation.ponder.pot.text_2": "Output",
+  "kaleidoscopecookery_automation.ponder.pot.text_3": "First, set the target recipe for the Pot.",
+  "kaleidoscopecookery_automation.ponder.pot.text_4": "If there is no oil in the pot, the Mechanical Arm will add oil to it. (Oil | Oil Pot | Kitchen Shovel With Oil)",
+  "kaleidoscopecookery_automation.ponder.pot.text_5": "Next, the Mechanical Arm will insert the matching ingredients into the pot.",
+  "kaleidoscopecookery_automation.ponder.pot.text_6": "Once the ingredients in the pot perfectly match the recipe, the Mechanical Arm will begin stirring-frying.",
+  "kaleidoscopecookery_automation.ponder.pot.text_7": "Now, just wait for a while...",
+  "kaleidoscopecookery_automation.ponder.pot.text_8": "When cooking is complete, the Mechanical Arm will scoop the finished dish from the Pot using a container. (The number of serving containers must match the recipe's output count.)",
+
+  "kaleidoscopecookery_automation.ponder.steamer.header": "Automating the Steamer with a Mechanical Arm",
+  "kaleidoscopecookery_automation.ponder.steamer.text_1": "Input",
+  "kaleidoscopecookery_automation.ponder.steamer.text_2": "Output",
+  "kaleidoscopecookery_automation.ponder.steamer.text_3": "If there is an empty slot in the Steamer, the Mechanical Arm will insert ingredients that have a Steamer recipe.",
+  "kaleidoscopecookery_automation.ponder.steamer.text_4": "Now, just wait for a while...",
+  "kaleidoscopecookery_automation.ponder.steamer.text_5": "Input",
+  "kaleidoscopecookery_automation.ponder.steamer.text_6": "When cooking is complete, a Mechanical Arm set to input from the Steamer will extract the product.",
+
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.header": "Automating the Shawarma Spit with a Mechanical Arm",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_1": "Input",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_2": "Output",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_3": "If the Shawarma Spit is empty, the Mechanical Arm will insert materials that have a campfire recipe onto the spit.",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_4": "Now, just wait for a while...",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_5": "Input",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_6": "When cooking is complete, a Mechanical Arm set to input from the Shawarma Spit will extract the product."
 }

@@ -1,4 +1,42 @@
 {
   "tooltip.kaleidoscopecookery_automation.recipe_item.address" : "记录的地址",
-  "message.kaleidoscopecookery_automation.recipe_set" : "配方已设置"
+  "message.kaleidoscopecookery_automation.recipe_set" : "配方已设置",
+
+  "kaleidoscopecookery_automation.ponder.stockpot.header" : "使用动力臂自动化汤锅",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_1" : "输入",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_2" : "输出",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_3" : "首先为汤锅设置目标配方",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_4" : "若没有添加汤底，动力臂会尝试向锅内添加物品形式的汤底，并返还容器",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_5" : "然后，动力臂会向锅内放入匹配的食材",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_6" : "当锅中的食材完全匹配配方后，动力臂会为汤锅盖上盖子",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_7" : "接下来只需等待一段时间...",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_8" : "输入",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_9" : "待烹饪完成，以汤锅为输出点的动力臂会揭下锅盖",
+  "kaleidoscopecookery_automation.ponder.stockpot.text_10" : "最后，动力臂会用容器从汤锅中盛取成品 (盛具数量必须为1或与锅中剩余份数相同)",
+
+  "kaleidoscopecookery_automation.ponder.pot.header" : "使用动力臂自动化炒锅",
+  "kaleidoscopecookery_automation.ponder.pot.text_1" : "输入",
+  "kaleidoscopecookery_automation.ponder.pot.text_2" : "输出",
+  "kaleidoscopecookery_automation.ponder.pot.text_3" : "首先为炒锅设置目标配方",
+  "kaleidoscopecookery_automation.ponder.pot.text_4" : "若锅内没有油脂，动力臂会向锅内添油 (油脂 | 油壶 | 沾油的锅铲)",
+  "kaleidoscopecookery_automation.ponder.pot.text_5" : "然后，动力臂会向锅内放入匹配的食材",
+  "kaleidoscopecookery_automation.ponder.pot.text_6" : "当锅中的食材完全匹配配方后，动力臂会开始翻炒",
+  "kaleidoscopecookery_automation.ponder.pot.text_7" : "接下来只需等待一段时间...",
+  "kaleidoscopecookery_automation.ponder.pot.text_8" : "待烹饪完成，动力臂会用容器从炒锅中盛取成品 (盛具数量与配方输出数相同)",
+
+  "kaleidoscopecookery_automation.ponder.steamer.header" : "使用动力臂自动化蒸笼",
+  "kaleidoscopecookery_automation.ponder.steamer.text_1" : "输入",
+  "kaleidoscopecookery_automation.ponder.steamer.text_2" : "输出",
+  "kaleidoscopecookery_automation.ponder.steamer.text_3" : "若蒸笼中存在空位，动力臂会向蒸笼内放入存在蒸笼配方的食材",
+  "kaleidoscopecookery_automation.ponder.steamer.text_4" : "接下来只需等待一段时间...",
+  "kaleidoscopecookery_automation.ponder.steamer.text_5" : "输入",
+  "kaleidoscopecookery_automation.ponder.steamer.text_6" : "待烹饪完成，以蒸笼为输入点的动力臂会取出产物",
+
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.header" : "使用动力臂自动化旋风烤肉塔",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_1" : "输入",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_2" : "输出",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_3" : "若旋风烤肉塔的内容为空，动力臂会向塔内放入存在营火配方的材料",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_4" : "接下来只需等待一段时间...",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_5" : "输入",
+  "kaleidoscopecookery_automation.ponder.shawarma_spit.text_6" : "待烹饪完成，以旋风烤肉塔为输入点的动力臂会取出产物"
 }

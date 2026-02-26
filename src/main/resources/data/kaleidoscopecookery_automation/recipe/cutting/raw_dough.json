@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_cookery:raw_dough"
+    }
+  ],
+  "processing_time": 20,
+  "results": [
+    {
+      "id": "kaleidoscope_cookery:raw_noodles"
+    }
+  ]
+}

@@ -4,8 +4,9 @@ license="BSD 3-Clause"
 
 [[mods]]
 modId="kaleidoscopecookery_automation"
-version="1.0.0"
+version="1.0.1"
 displayName="KaleidoscopeCookery:Automation"
+logoFile="icon.png"
 authors="摸里傻"
 
 description='''
@@ -35,13 +36,13 @@ file="META-INF/accesstransformer.cfg"
 [[dependencies."kaleidoscopecookery_automation"]]
     modId="kaleidoscope_cookery"
     type="required"
-    versionRange="[1.2.0,)"
+    versionRange="[1.1.2,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies."kaleidoscopecookery_automation"]]
     modId="create"
     type="required"
-    versionRange="[6.0.8,)"
+    versionRange="[6.0.6,)"
     ordering="NONE"
     side="BOTH"

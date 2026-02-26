@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.mastermarisa.kaleidoscopecookery_automation.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "StockpotBlockEntityAccessor"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
